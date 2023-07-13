@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("http://127.0.0.1:5500/wallpaperflare.com_wallpaper.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: georgian;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: double;
+    color: rgba(233, 235, 232, 0.865);
+    padding: 20px 40px;
+    border: 2px solid #efb840 transparent;
+    transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+
+}
+ul li a:hover{
+    background-color: #1486c4;
+    color: #3b11f5;
+}
+ul li :active a{
+    background-color: aliceblue;
+    color: #0e0e0f;
+
+}
+
+.logo img{
+    float: left ;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    width: 150px;
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.title{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: rgb(234, 13, 205);
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: aliceblue;
+    font-size: 60px;
+
+}
+
+.title :hover{
+    /* border: #6bd216; */
+    background-color: #1486c4;
+    color: #eef3ea;   
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 2px solid;
+    padding: 10px 30px;
+    background-color: #0e100a;
+    color: #eef3ea;    
+    text-decoration: #7b7985; 
+}
+
+.button :hover{
+    background-color: #1486c4;
+    color: #eef3ea;   
+}
