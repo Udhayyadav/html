@@ -1,0 +1,22 @@
+#heading1{
+    color: #1333d6;
+    text-align: center;
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    letter-spacing: 50px;
+    font-size: 50px;
+    text-shadow: 2px 2px 30px orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading2{
+    /* color: rgb(0, 0, 0); pure black */
+    /* color: rgb(255, 255, 255); pure white */
+    color: rgb(35, 90, 44);
+    line-height: 40px;
+}
+p{
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}

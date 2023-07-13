@@ -1,0 +1,47 @@
+/* universal selector */
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Oswald:wght@300;600&family=Roboto:ital,wght@0,400;1,100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bacasime Antique', serif;
+}
+
+.header{
+    /* background-image:url("./wallpaperflare.com_wallpaper.jpg");
+    height: 789px; */
+    background-color: #000;
+    padding: 60px;
+    color: rgb(25, 144, 248);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer{
+    background-color: #000;
+    padding: 30px;
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.main{
+    min-height: 80vh;
+    }
+
+.profile{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: 1px 1px 10px rgb(39, 43, 43);
+    padding: 10px;
+}
+
+img{
+    width: 50%;
+    border-radius: 50%;
+}

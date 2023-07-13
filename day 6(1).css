@@ -1,0 +1,25 @@
+/* h1{
+    color: white;
+    background-color: rgb(25, 30, 30);
+    width: 500px;
+} */
+
+.parent{ 
+    /* width: 500px; */
+    /* max-width: 200; */
+    min-width: 500;
+}
+/* width wont work for inline elements  */
+
+h1{
+     display: inline-block;
+    width: 500px;
+    background-color: rgb(138, 131, 131);
+}
+
+a{
+    color: aquamarine;
+    background-color: brown;
+    display: inline-block;
+    width: 300px;
+}

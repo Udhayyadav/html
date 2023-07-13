@@ -1,0 +1,32 @@
+.inp-field{
+    margin: 15px;
+}
+
+input,select,textarea{
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+form{
+    width: 30rem;
+    margin: auto;
+    background: #d9e39c;
+    padding: 30px;
+}
+
+button{
+    display: block;
+    margin: auto;
+
+}
+
+label{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+input:focus{
+    border: 2px solid greenyellow;
+    background-color: aliceblue;
+    color: azure;
+}

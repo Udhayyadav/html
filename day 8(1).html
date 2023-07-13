@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="./day 8(1).css">
+</head>
+<body>
+    <!-- <h1>form demo</h1> -->
+    <form action="pop">
+        <div class="pop">
+            <label for="password">username</label>
+            <input type="text" name="username" id="username" placeholder="Ex. udhay,kolhi....">
+        </div>
+        <div class="pop">
+            <label for="password">password</label>
+            <input type="password" name="passwoed" id="username">
+        </div>
+        <div class="pop">
+            <label for="age">age</label>
+            <input type="number" name="Age" id="age" >
+        </div>
+        <div class="pop">
+            <label for="Email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="pop">
+            <label for="Dob">DOB</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="pop">
+            <label >select skills</label>
+            <div>
+                <input type="checkbox" name="js" id="js">
+                <label for="js">Java script</label>
+            </div>
+            <div>
+                <input type="checkbox" name="python" id="python">
+                <label for="python">python</label>
+            </div>
+        </div>
+            <div class="pop">
+                <label>select gender</label>
+                
+                <div>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">female</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">male</label>
+                </div>
+            </div>
+
+            <div class="pop">
+                <label for="sates">Select states</label>
+                <select name="state" id="state">
+                    <option value="" disabled>--states--</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="mumbai">mumbai</option>
+                    <option value="ap">Andhra pradesh</option>
+                </select>
+
+            </div>
+
+            <div class="pop">
+                <label for="feedback">feedback</label>
+                <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+            </div>
+
+            <!-- submit button -->
+            <button type="submit">login</button>
+
+    </form>
+</body>
+</html>
